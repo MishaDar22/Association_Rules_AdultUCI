@@ -531,7 +531,7 @@ length(rulesLift1.3) # mamy 99 reguł
 png("Image_13.png", res=80, height=800, width=2400)
 plot(rulesLift1.3, shading="order", control=list(main = "Two-key plot" ))
 dev.off()
-# Na Imageach widzimy, że reguły dłuższe mają większe zaufanie, ale nizsze wsparcie oraz odwrotnie mamy z krótszymi regułami
+# Na wykresach widzimy, że reguły dłuższe mają większe zaufanie, ale nizsze wsparcie oraz odwrotnie mamy z krótszymi regułami
 png("Image_14.png", res=80, height=800, width=2400)
 plot(rulesLift1.3, method="matrix", measure="lift", engine = 'interactive')
 dev.off()
