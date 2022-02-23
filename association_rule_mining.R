@@ -1,20 +1,3 @@
-# Mikhail Darakhovich
-#--------------------
-# Cele:
-#1.do czego w praktyce mogą być wykorzystane odkryte reguły?
-# W praktyce mogą być wykorzystane do rozmieszczenie towarów w sklepie, segmentacji klientów, diagnozowaniu awarii w sieciach telekomunikacyjnych,
-# diagnozowaniu chorób w medecynie.
-
-#2.jak reguła jest interesująca?
-# Reguła, która została wybrana z wyszukiwanego zbioru reguł na podstawie miar(kryteriów) o charakterze objektywnym lub subjektywnym.
-# Ocena atrakcyjności reguł asocjacyjnych powinna mieć charakter wielokryteralny. Do oceny atrakcyjnych reguł wykorzystamy miary,
-# które reprezentują kryteria ogólności i wiarygodności reguly. Miary wsparcia i ufności są niewystarczające do oceny atrakcyjności reguły. 
-# Tutaj do oceny reguł wykorzystam miary: lift, Klosgena, certainty, improvement, importance
-
-#3. jak wybrać najlepszą regulę?
-# W wyszukanych regułach interesujących patrzymy na wsparcie. Im wsparcie jest wyższe, tym reguła jest lepsza.
-
-
 library(arules)
 library(arulesViz)
 
